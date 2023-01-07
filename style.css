@@ -1,0 +1,101 @@
+html,
+body {
+    background-color: #f0f5f5;
+    height: 100%;
+    margin: 0;
+    font: 16px Sans-Serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.content_title {
+    text-align: center;
+    font-weight: bold;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 19%;
+    height: 80%;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    padding-top: 30px;
+    position: relative;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+}
+
+.container .content p {
+    margin: 10px;
+}
+
+.container .content h1 {
+    margin: 10px;
+}
+
+
+.footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #777;
+    text-align: center;
+}
+
+.icon {
+    height: 15px;
+}
+
+a {
+    text-decoration: none;
+}
